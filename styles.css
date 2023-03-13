@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: white;
+    color: white;
+
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: -10px 10px 14px rgba(0, 0, 0, 25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-widht: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info p {
+    color: white;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* .social {
+    background: rgb(102, 90, 34);
+    padding: 5px 10px;
+    border: 5px solid rgb(64, 54, 13);
+    margin: 5px
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 5px;
+}
+
+.list {
+    padding: 0px 15px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table tr:nth-child(2) {
+    color: grey;
+}
+
+.link-list {
+    padding: 0px 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 50%;
+    box-sizing: border-box;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.btn {
+    background: #111;
+    padding: 5px;
+    color: #fff;
+    font-family: inherit;
+    cursor: pointer;
+}
+.bth:hover{
+    opacity: 0.9;
+}
